@@ -4,7 +4,7 @@ import heroBg from "@/assets/hero-floral-bg.jpg";
 import Haji from "@/assets/HajiAli.jpg";
 import Masjid from "@/assets/jama_masjid.png";
 import bouquet from "@/assets/bouquet.jpg";
-import Groom from "@/assets/groompic.jpeg";
+import Groom from "@/assets/groompic.png";
 
 import prayerMat from "@/assets/mat2.png";
 import HadithSection from "@/sections/HadithSection";
@@ -289,7 +289,7 @@ const Index = () => {
               <p className="text-lg pb-20 md:text-xl text-foreground">In the name of Allah, the most beneficent and merciful.</p>
               <br />
               <h2 className="font-display text-5xl md:text-7xl text-foreground">
-              Fayash & Zaara Nikkah
+              Fayash & Zaara Nikah
               </h2>
               <p className="mt-4 text-lg md:text-xl text-muted-foreground">
                  Getting Married On Apr 20, 2026
@@ -304,7 +304,7 @@ const Index = () => {
               
             <Framed src={Groom}  alt="Groom portrait in cream sherwani with turban" caption={
               <div className=" ">
-                <div className="animate-pulse-scale delay-0 font-display text-2xl md:text-2xl text-foreground ">Shaikh Fayash Shaikh Mujeeb </div>
+                <div className="animate-pulse-scale delay-0 font-display text-2xl md:text-2xl text-foreground ">Shaikh Fayash</div>
                 <div className=" text-sm text-muted-foreground animate-pulse-scale delay-200"> BSC Computers <br />Software Developer</div>
                 <div className="text-sm text-muted-foreground  animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground">S/O : </span> Mujeeb shaikh</div>
               </div>
@@ -321,7 +321,7 @@ const Index = () => {
            <div>
              <Framed src={prayerMat} alt="Beautiful prayer mat with 'Ariba' written on it and flowers" caption={
               <>
-                <div className=" animate-pulse-scale delay-0 font-display text-2xl md:text-2xl text-foreground">Zaara Zaheer Pathan </div>
+                <div className=" animate-pulse-scale delay-0 font-display text-2xl md:text-2xl text-foreground">Zaara </div>
                 <div className="text-sm text-muted-foreground animate-pulse-scale delay-200"> Bsc Pursuing</div>
                 <div className="text-sm text-muted-foreground  animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground">D/O : </span>  Zaheer pathan</div>
               </>

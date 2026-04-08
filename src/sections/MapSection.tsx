@@ -64,15 +64,14 @@ const MapSection = () => {
         <div className="order-1 md:order-2 animate-fade-in">
           <div className="p-2 bg-card border rounded-lg shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d445.78024074914714!2d75.34542892941192!3d19.88720747727635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba2a173213e65%3A0xd89b51d1db2dae4d!2sHaji%20Ali%20Function%20Hall!5e1!3m2!1sen!2sin!4v1754749046946!5m2!1sen!2sin"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="rounded-md"
-            ></iframe>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.163177294887!2d75.1976867746868!3d19.959638723639888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb9100328cc4e7%3A0x45f6f17e33cbbd1d!2sAdeen's%20Park!5e0!3m2!1sen!2sin!4v1775664769566!5m2!1sen!2sin"
+  width="100%"
+  height="300"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
           </div>
         </div>
       </div>
