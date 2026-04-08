@@ -163,8 +163,8 @@ const NikahSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <div className="animate-fade-in">
           <div className="p-3 bg-card border rounded-lg shadow-lg">
-            <div className="overflow-hidden rounded-t-[120px] border border-accent/30 shadow-md">
-              <img src={Masjid} alt="Nikah venue" loading="lazy" className="w-full h-80 object-cover" />
+            <div className="overflow-hidden rounded-t-[100px] border border-accent/30 shadow-md ">
+              <img src={Masjid} alt="Nikah venue" loading="lazy" className="w-full h-80  " />
             </div>
           </div>
         </div>
@@ -306,7 +306,7 @@ const Index = () => {
               <div className=" ">
                 <div className="animate-pulse-scale delay-0 font-display text-2xl md:text-2xl text-foreground ">Shaikh Fayash Shaikh Mujeeb </div>
                 <div className=" text-sm text-muted-foreground animate-pulse-scale delay-200"> BSC Computers <br />Software Developer</div>
-                <div className="text-sm text-muted-foreground  animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground">S/O : </span> Syed Mustafa</div>
+                <div className="text-sm text-muted-foreground  animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground">S/O : </span> Mujeeb shaikh</div>
               </div>
             } />
 
@@ -323,7 +323,7 @@ const Index = () => {
               <>
                 <div className=" animate-pulse-scale delay-0 font-display text-2xl md:text-2xl text-foreground">Zaara Zaheer Pathan </div>
                 <div className="text-sm text-muted-foreground animate-pulse-scale delay-200"> Bsc Pursuing</div>
-                <div className="text-sm text-muted-foreground  animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground">D/O : </span>  Shaikh salman</div>
+                <div className="text-sm text-muted-foreground  animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground">D/O : </span>  Zaheer pathan</div>
               </>
             } />
            </div>
@@ -335,7 +335,7 @@ const Index = () => {
 
         {/* Nikah Section */}
         <NikahSection />
-        <WalimaSection/>
+        {/* <WalimaSection/> */}
 
         <MapSection />
         {/* Hadith Section */}
